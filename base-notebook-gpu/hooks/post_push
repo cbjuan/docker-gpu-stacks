@@ -18,8 +18,8 @@ INDEX_FILE="${GIT_SANDBOX}/Home.md"
 eval $(ssh-agent -s)
 ssh-add <(echo "$DEPLOY_KEY")
 ssh-add -l
-git config --global user.email "jupyter@googlegroups.com"
-git config --global user.name "Jupyter Docker Stacks"
+git config --global user.email "juan.cruz@ibm.com"
+git config --global user.name "Juan Cruz-Benito"
 
 # Glone the GitHub project wiki.
 pushd "$WORKDIR"
